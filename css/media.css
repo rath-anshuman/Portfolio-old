@@ -1,0 +1,34 @@
+@media (max-width:800px) {
+    .screenTwo{
+        display: none;
+    }
+    .screenOne{
+        width: 95vw;
+    }
+    .codetag, #element,  .codelin{
+        font-size: 16px;
+    }
+    .bannertext{
+        width: 100%;
+        height: 60%;
+    }
+    .banner {
+ flex-direction: column;
+ align-items: start;
+
+    }
+    .contactbox{
+        width: 100%;
+        height: 40%;
+     justify-content: end;
+    
+  
+    }
+    .contactbtn{
+       padding: 5px;
+        margin-right:10px ;
+        border-radius: 6px;
+    }
+
+
+}

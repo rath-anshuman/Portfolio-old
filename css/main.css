@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Franklin Gothic Medium';
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.mainContener{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+    background-color: black;
+    /* background-color: rgb(50, 11, 95); */
+  
+}
+.screenOne{
+    width:94%;
+    margin-left: 10px;
+    height: 100%;
+    /* background-color: #FFFF00; */
+    overflow: hidden;
+    
+}
+
+.banner {
+    width: 94%;
+    top: 0px;
+
+    height: 120px;
+    position: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(https://wallpapercave.com/wp/wp5195406.jpg);
+    background-position: center;
+    display: flex;
+    align-items: center;
+    background-position: 50%;
+  
+}
+.bannertext{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    opacity: 1;
+
+}
+
+#element,  .codelin{
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 500;
+    opacity: 1;
+    font-family: 'Franklin Gothic Medium';
+
+}
+.codetag{
+    font-size: 30px;
+    color: #FFFF00;
+    font-weight: 500;
+    margin-left: 10px;
+    opacity: 1;
+    font-family: 'Franklin Gothic Medium'; 
+}
+
+.contactbox{
+    width:20% ;
+    height: 100%;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+   
+    
+}
+.contactbtn{
+border: 1px solid #FFFF00; 
+background-color: #FFFF00;
+display: flex;
+padding: 10px;
+align-items: center; 
+justify-content: center; 
+border-radius: 10px;
+font-family: 'Franklin Gothic Medium';
+}
+.contactbtn a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+
+/* <!---------------------------- screen Two-----------------------------------------------------------------------------> */
+
+
+.screenTwo{
+    width: 80px;
+    background-color: rgb(0, 0, 0);
+    height: 100vh;
+    overflow: hidden;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.socialicon{
+    font-size: 30px;
+}
+.socialicon, a{
+    color:white;
+}
+
+
+
+.socialicon:hover{
+    color: #FFFF00;
+    opacity: 1;
+}
+
+.x{
+    width: 95%;
+    height: 100px;
+    background-color: aqua;
+    margin-top: 130px;
+}
+.b{
+    width: 70%;
+    height: 300px;
+    background-color: brown;
+    margin-top: 40px;
+}
