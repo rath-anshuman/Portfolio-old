@@ -2,7 +2,7 @@
 
  a=true;
  var typed = new Typed('#element', {
-      strings: ['Hello', '  I am adarsha nanada. ','i am a web coder','i am a fullstack python devloper'],
+      strings: ['Python Developer','Backend Developer','Django Developer','Projects Lead'],
       typeSpeed: 90,
       loop:true
     });
