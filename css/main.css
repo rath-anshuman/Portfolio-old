@@ -45,10 +45,7 @@ body {
     align-items: center;
     background-position: 100%;
     background-color: black;
-    /* border: wheat solid 1px;
-    border-radius: 20px; */
 }
-
 .bannertext {
     width: 80%;
     height: 100%;
@@ -56,9 +53,7 @@ body {
     justify-content: start;
     align-items: center;
     opacity: 1;
-
 }
-
 #element,
 .codelin {
     font-size: 25px;
@@ -66,9 +61,7 @@ body {
     font-weight: 500;
     opacity: 1;
     font-family: 'Franklin Gothic Medium';
-
 }
-
 .codetag {
     font-size: 25px;
     color: #FFFF00;
@@ -77,14 +70,11 @@ body {
     opacity: 1;
     font-family: 'Franklin Gothic Medium';
 }
-
 #ima {
     font-size: 25px;
     color: white;
     font-family: 'Franklin Gothic Medium';
-
 }
-
 .contactbox {
     width: 20%;
     height: 100%;
@@ -92,10 +82,7 @@ body {
     align-items: center;
     justify-content: end;
     margin-right: 24px;
-    /* position: absolute; */
-    /* background-color: aqua; */
 }
-
 .contactbtn {
     border: 1px solid #FFFF00;
     background-color: #FFFF00;
@@ -105,22 +92,17 @@ body {
     justify-content: center;
     border-radius: 10px;
     font-family: 'Franklin Gothic Medium';
-    /* left: 60%; */
 }
-
 .contactbtn a {
     color: rgb(0, 0, 0);
     text-decoration: none;
 }
-
-
 .intro {
     width: 100%;
     margin-top: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* gap: 100px; */
 }
 
 #intropage {
@@ -251,14 +233,15 @@ body {
 
 
 .skills {
-    margin: 20px 0px 0px 0px;
+    margin: 10px 0px 0px 0px;
     width: 100%;
     /* height: 280px; */
     display: flex;
     flex-direction: column;
     justify-content: start;
     align-items: start;
-    gap: 20px;
+    gap: 10px;
+    /* background-color: #eeff00; */
 }
 
 .skills span {
@@ -337,13 +320,11 @@ body {
 .projects {
     width: 100%;
     /* background-color: bisque; */
-    margin: 20px 0px 0px 0px;
+    margin: 70px 0px 0px 0px;
     display: flex;
     flex-direction: column;
     justify-content: start;
     align-items: start;
-    gap: 30px;
-    margin-top: 130px;
 }
 
 .projects span {
@@ -358,6 +339,7 @@ body {
 #projectsboxes {
     /* height: 500px; */
     width: 100%;
+    margin-top: 40px;
     /* background-color: antiquewhite; */
     display: flex;
     flex-wrap: wrap;
@@ -367,7 +349,7 @@ body {
 }
 
 #projectbox {
-    width: 96%;
+    width: 100%;
     /* height: 220px; */
     /* background-color: orchid; */
     display: flex;
@@ -402,8 +384,6 @@ body {
 
 #projectdetail {
     width: 68%;
-    height: 100%;
-    /* background-color: brown; */
     display: flex;
     justify-content: center;
     align-items: center;

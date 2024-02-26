@@ -100,9 +100,11 @@
         width: 150px;
         gap: 5px;
     }
-    #projectsboxes{
+
+    #projectsboxes {
         width: 100%;
     }
+
     #projectbox {
         flex-direction: column;
         margin-top: 30px;
@@ -111,8 +113,15 @@
     }
 
     #projectimage {
-        width: 95%;
+        width: 100%;
         /* height: 100%; */
+    }
+
+    #prjtimg img {
+        width: 95%;
+    }
+    #projectdetail{
+        width: 85%;
     }
 
 }
