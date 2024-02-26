@@ -97,8 +97,16 @@ body {
     color: rgb(0, 0, 0);
     text-decoration: none;
 }
+
+
+
+
+
+
+
 .intro {
     width: 100%;
+    height: 50vh;
     margin-top: 100px;
     display: flex;
     justify-content: center;
@@ -235,7 +243,7 @@ body {
 .skills {
     margin: 10px 0px 0px 0px;
     width: 100%;
-    /* height: 280px; */
+    height: 20vh;
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -320,7 +328,7 @@ body {
 .projects {
     width: 100%;
     /* background-color: bisque; */
-    margin: 70px 0px 0px 0px;
+    margin: 130px 0px 0px 0px;
     display: flex;
     flex-direction: column;
     justify-content: start;
