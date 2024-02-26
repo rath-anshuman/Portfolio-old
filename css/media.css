@@ -1,33 +1,50 @@
 @media (max-width:800px) {
-    .screenTwo{
+    .navbar {
         display: none;
     }
-    .screenOne{
+
+    .mainscreen {
         width: 95vw;
     }
-    .codetag, #element,  .codelin{
+
+    .codetag,
+    #element,
+    .codelin {
         font-size: 16px;
     }
-    .bannertext{
+
+    .bannertext {
         width: 100%;
         height: 60%;
     }
+
     .banner {
- flex-direction: column;
- align-items: start;
+        flex-direction: column;
+        align-items: start;
+        /* width: 100%; */
 
     }
-    .contactbox{
+
+    .contactbox {
         width: 100%;
         height: 40%;
-     justify-content: end;
-    
-  
+        justify-content: start;
+        margin-left: 10px;
+
+
     }
-    .contactbtn{
-       padding: 5px;
-        margin-right:10px ;
+
+    .contactbtn {
+        padding: 5px;
+        margin-right: 10px;
         border-radius: 6px;
+    }
+    .menuicon{
+        display: flex;
+    }
+
+    .intro{
+        width: 100%;
     }
 
 
