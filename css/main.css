@@ -236,6 +236,8 @@ body {
 }
 
 
+
+
 .skills {
     margin: 10px 0px 0px 0px;
     width: 100%;
@@ -275,7 +277,6 @@ body {
     margin-top: 30px;
     /* gap: 20px; */
 }
-
 #skillicon {
     display: flex;
     justify-content: start;
@@ -425,7 +426,6 @@ body {
     
     font-family: 'Kristen ITC';
 }
-
 
 
 
