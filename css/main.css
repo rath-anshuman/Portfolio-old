@@ -268,7 +268,7 @@ body {
 #skillbox {
     height: 180px;
     width: 330px;
-    background-color: #DAE3F3;
+    background-color: white;
     border-radius: 28px;
     display: flex;
     flex-direction: column;
