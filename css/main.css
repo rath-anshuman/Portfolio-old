@@ -101,6 +101,15 @@ body {
 
 
 
+
+
+
+
+
+
+
+
+
 .intro {
     width: 100%;
     margin-top: 100px;
@@ -238,6 +247,12 @@ body {
 
 
 
+
+
+
+
+
+
 .skills {
     margin: 10px 0px 0px 0px;
     width: 100%;
@@ -268,7 +283,7 @@ body {
 #skillbox {
     height: 180px;
     width: 330px;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     border-radius: 28px;
     display: flex;
     flex-direction: column;
@@ -391,6 +406,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    /* background-color: aquamarine; */
+    padding-right: 50px;
 }
 
 #prjtdetails {
@@ -431,14 +448,182 @@ body {
 
 
 
+.footer{
+    width: 100%;
+    /* height: 300px; */
+    /* background-color: bisque; */
+    margin: 70px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    margin-bottom: 20px;
+    background-color: #240b16;
+}
 
+#fcontents{
+    width: 100%;
+    height: 200px;
+    /* background-color: aqua; */
+    display: flex;
+    /* border: 1px solid #FFFF00; */
+    
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
 
+#fname{
+    width: 30%;
+    height: 100%;
+    /* background-color: bisque; */
+    padding: 20px 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+#fnameul{
+    display: flex;
+    list-style-type: none;
+}
+#fnameul li{
+    font-size: 30px;
+}
+#fname p{
+    color: #FFFF00;
+    font-size: 22px;
+}
+#flinks{
+    width: 20%;
+    height: 100%;
+    /* background-color: azure; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#fllist{
+    width: 90%;
+    height: 90%;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    list-style-type: none;
+    gap: 20px;
+    padding:0px 10px;
+}
+#fllist li{
+    text-decoration: none;
+}
+#fllist a{
+    text-decoration: none;
+    font-size: 25px;
+}
+#fabout{
+    width: 50%;
+    height: 100%;
+    /* background-color: violet; */
+    display: flex;
+    flex-direction: column;
 
+}
+#fap{
+    height: 70%;
+    width: 100%;
+    /* background-color: cadetblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#fap p{
+    color: #DAE3F3;
+    font-size: 20px;
+}
+#fal{
+    height: 30%;
+    width: 100%;
+    /* background-color: saddlebrown; */
+    display: flex;
+    align-items: center;
+    justify-content:start;
+    gap: 30px;
+}
+#fal a{
+    color: #FFFF00;
+    text-decoration: none;
+    font-size: 15px;
+}
 
+#fbuttons{
+    width: 100%;
+    /* height: 50px; */
+    /* background-color:blue; */
+    display: flex;
+    justify-content: space-between;
+}
+#fbuttleft{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 20px;
+}
 
+#fhire{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 80px;
+    background-color: #eeff00;
+    border-radius: 25px;
+}
+#fhire span {
+    border-radius: 25px;
+    background-color: #eeff00;
+}
+#fhire a {
+    color: #201017;
+    font-family: 'Kristen ITC';
+    font-size: 12px;
+    text-decoration: none;
+}
+#fsocialicons{
+    height: 100%;
+    width: 250px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#fsocialicons i{
+    width: 100%;
+}
+#fbuttright{
+    width: 40px;
+    height: 100%;
+    /* background-color: hotpink; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+#fbuttright i{
+    color: #FFFF00;
+}
+#fcopyright{
+    width: 100%;
+    height: 30px;
+    /* background-color: slategray; */
+    display: flex;
+    justify-content: end;
+    align-items: center;
 
-
+}
+#fcopyright span{
+    color: white;
+    font-size: 10px;
+    margin-right: 20px;
+}
 
 
 

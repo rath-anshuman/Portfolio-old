@@ -3,6 +3,9 @@
         justify-content: start;
         margin-right: 60px;
     }
+    #fbuttright{
+        margin-right: 50px;
+    }
 }
 
 @media (max-width:800px) {
@@ -127,4 +130,36 @@
         width: 85%;
     }
 
+
+    .footer{
+        gap: 5px;
+    }
+    #fbuttright{
+        margin: 0px;
+    }
+    #fcontents{
+        flex-direction: column;
+        gap: 10px;
+    }
+    #fname{
+        width: 100%;
+    }
+    #fname{
+        width: 100%;
+    }
+    #flinks{
+        width: 100%;
+    }
+    #fllist{
+        flex-direction: row;
+        justify-content: start;
+        padding: 5px 0px;
+    }
+    #fllist a{
+        font-size: 20px;
+    }
+    #fabout{
+        display: none;
+
+    }
 }
