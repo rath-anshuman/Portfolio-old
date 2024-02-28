@@ -747,7 +747,7 @@ body {
 #fsocialicons {
     height: 100%;
     width: 220px;
-    background-color: aqua;
+    /* background-color: aqua; */
     display: flex;
     justify-content: start;
     align-items: center;
