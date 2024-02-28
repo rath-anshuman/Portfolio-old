@@ -154,7 +154,7 @@
     #fllist{
         flex-direction: row;
         justify-content: start;
-        padding: 5px 0px;
+        padding: 0px 0px;
     }
     #fllist a{
         font-size: 20px;

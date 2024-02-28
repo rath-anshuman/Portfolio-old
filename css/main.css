@@ -69,7 +69,7 @@ body {
 
 .codetag {
     font-size: 25px;
-    color: #FFFF00;
+    color: #ffffff;
     font-weight: 500;
     margin-left: 10px;
     opacity: 1;
@@ -92,8 +92,8 @@ body {
 }
 
 .contactbtn {
-    border: 1px solid #FFFF00;
-    background-color: #FFFF00;
+    border: 1px solid #4af7b8;
+    background-color: #4af7b8;
     display: flex;
     padding: 8px;
     align-items: center;
@@ -180,7 +180,7 @@ body {
 #icontent h1 {
     font-size: 42px;
     font-family: 'Franklin Gothic Medium';
-    color: #FFFF00;
+    color: #544fe3;
 }
 
 #icontent h2 {
@@ -211,18 +211,19 @@ body {
     align-items: center;
     height: 40px;
     width: 80px;
-    background-color: #eeff00;
-    border-radius: 25px;
+    /* background-color: ; */
+    border: 2px solid #544fe3 ;
+    border-radius: 10px;
 }
 
 #hire span {
-    border-radius: 25px;
-    background-color: #eeff00;
+    /* border-radius: 20px; */
+    /* background-color: #544fe3; */
 }
 
 #hire a {
-    color: #201017;
-    font-family: 'Kristen ITC';
+    color: #ffffff;
+    /* font-family: 'Kristen ITC'; */
     font-size: 12px;
     text-decoration: none;
 }
@@ -428,7 +429,7 @@ body {
 }
 
 #prjtdetails h1 {
-    color: #FFFF00;
+    color: #674af7;
     font-size: 24px;
 }
 
@@ -444,7 +445,7 @@ body {
     align-items: center;
     height: 40px;
     width: 100px;
-    background-color: #eeff00;
+    background-color: #4af7c1;
     border-radius: 20px;
     margin-top: 20px;
 }
@@ -454,7 +455,6 @@ body {
     text-decoration: none;
     font-size: 15px;
 
-    font-family: 'Kristen ITC';
 }
 
 .contactsection {
