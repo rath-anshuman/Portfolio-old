@@ -5,6 +5,8 @@
     margin: 0px;
     font-family: 'Franklin Gothic Medium';
     box-sizing: border-box;
+    scroll-behavior: smooth;
+    scroll-margin: 100px;
 }
 
 body {
