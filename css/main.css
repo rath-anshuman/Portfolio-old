@@ -157,7 +157,7 @@ body {
 
 #pimg img {
     width: 98%;
-    border: 3px solid #FFFF00;
+    /* border: 3px solid #FFFF00; */
     border-radius: 200px;
 
 }
@@ -303,7 +303,8 @@ body {
     justify-content: end;
     align-items: start;
     margin-top: 30px;
-    /* gap: 20px; */
+    box-shadow:  27px -27px 53px #00190b,
+             -27px 27px 53px #004157;
 }
 
 #skillicon {
@@ -316,6 +317,7 @@ body {
 #skillicon i {
     font-size: 50px;
     margin-left: 5px;
+    color: rgb(216, 204, 204);
 }
 
 #skilltittle {
@@ -328,7 +330,7 @@ body {
 #skilltittle span {
     font-size: 20px;
     font-family: 'Cascadia Code';
-    color: black;
+    color: white;
 }
 
 #skilldetail {
@@ -340,6 +342,7 @@ body {
 #skilldetail p {
     margin: 0px 0px 20px 20px;
     font-size: 13px;
+    color: white;
 }
 
 
