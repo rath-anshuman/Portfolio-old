@@ -116,6 +116,7 @@ body {
 .contactbtn a {
     color: rgb(0, 0, 0);
     text-decoration: none;
+    font-weight: 600;
 }
 
 
@@ -194,6 +195,7 @@ body {
 
 #icontent h1 {
     font-size: 42px;
+    font-weight: 1000;
     /* font-family: 'Franklin Gothic Medium'; */
     color: #544fe3;
 }
@@ -239,7 +241,7 @@ body {
 #hire a {
     color: #ffffff;
     /* font-family: 'Kristen ITC'; */
-    font-size: 12px;
+    font-size: 14px;
     text-decoration: none;
 }
 
@@ -316,7 +318,7 @@ body {
     align-items: start;
     margin-top: 30px;
     box-shadow:  27px -27px 53px #00190b,
-             -27px 27px 90px #004157;
+             -27px 27px 50px #004157;
 }
 #skillimage{
     width:  100%;
@@ -476,16 +478,19 @@ body {
     justify-content: center;
     align-items: center;
     height: 40px;
-    width: 100px;
+    /* width: 100px; */
     background-color: #4af7c1;
     border-radius: 20px;
     margin-top: 20px;
+    display: inline-block;
 }
 
 #learnmore a {
     color: black;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 30px 30px;
 
 }
 
@@ -662,12 +667,14 @@ body {
 
 #fnameul li {
     font-size: 30px;
+    font-weight: 800;
 }
 
 #fname p {
     color: #FFFF00;
-    font-size: 22px;
-    letter-spacing: 2px;
+    font-size: 16px;
+    letter-spacing: 4px;
+    font-weight: 700;
 }
 
 #flinks {
@@ -776,7 +783,8 @@ body {
 #fhire a {
     color: #201017;
     /* font-family: 'Kristen ITC'; */
-    font-size: 12px;
+    font-size: 14px;
+    font-weight: 600;
     text-decoration: none;
 }
 
