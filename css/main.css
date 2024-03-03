@@ -3,10 +3,15 @@
 * {
     padding: 0px;
     margin: 0px;
-    font-family: 'Franklin Gothic Medium';
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  */
+    /* font-weight: 00; */ 
     box-sizing: border-box;
     scroll-behavior: smooth;
     scroll-margin: 100px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+   
 }
 
 body {
@@ -64,22 +69,25 @@ body {
     color:red;
     font-weight: 500;
     opacity: 1;
-    font-family: 'Franklin Gothic Medium';
+    /* font-family: 'Franklin Gothic Medium'; */
 }
-
+.typed-cursor{
+    color: white;
+    font-size: 28px;
+}
 .codetag {
     font-size: 25px;
     color: #ffffff;
     font-weight: 500;
     margin-left: 10px;
     opacity: 1;
-    font-family: 'Franklin Gothic Medium';
+    /* font-family: 'Franklin Gothic Medium'; */
 }
 
 #ima {
     font-size: 25px;
     color: white;
-    font-family: 'Franklin Gothic Medium';
+    /* font-family: 'Franklin Gothic Medium'; */
 }
 
 .contactbox {
@@ -102,7 +110,7 @@ body {
     align-items: center;
     justify-content: center;
     border-radius: 10px;
-    font-family: 'Franklin Gothic Medium';
+    /* font-family: 'Franklin Gothic Medium'; */
 }
 
 .contactbtn a {
@@ -160,8 +168,9 @@ body {
 
 #pimg img {
     width: 85%;
-    border-radius: 60px;
+    /* border-radius: 130px; */
     background-color: black;
+    
 
 }
 
@@ -185,19 +194,19 @@ body {
 
 #icontent h1 {
     font-size: 42px;
-    font-family: 'Franklin Gothic Medium';
+    /* font-family: 'Franklin Gothic Medium'; */
     color: #544fe3;
 }
 
 #icontent h2 {
     font-size: 22px;
-    font-family: 'Franklin Gothic Medium';
+    /* font-family: 'Franklin Gothic Medium'; */
     color: white;
 }
 
 #icontent p {
-    font-size: 19px;
-    font-family: 'Franklin Gothic Medium';
+    font-size: 16px;
+    /* font-family: 'Franklin Gothic Medium'; */
     color: #DAE3F3;
 }
 
@@ -307,7 +316,7 @@ body {
     align-items: start;
     margin-top: 30px;
     box-shadow:  27px -27px 53px #00190b,
-             -27px 27px 53px #004157;
+             -27px 27px 90px #004157;
 }
 #skillimage{
     width:  100%;
@@ -345,7 +354,7 @@ body {
 
 #skilltittle span {
     font-size: 20px;
-    font-family: 'Cascadia Code';
+    /* font-family: 'Cascadia Code'; */
     color: white;
 }
 
@@ -357,7 +366,7 @@ body {
 
 #skilldetail p {
     margin: 0px 0px 20px 20px;
-    font-size: 13px;
+    font-size: 10px;
     color: white;
 }
 
@@ -621,7 +630,7 @@ body {
     flex-direction: column;
     justify-content: start;
     align-items: start;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     padding: 10px;
 }
 
@@ -689,7 +698,7 @@ body {
 
 #fllist a {
     text-decoration: none;
-    font-size: 25px;
+    font-size: 18px;
 }
 
 #fabout {
@@ -698,6 +707,7 @@ body {
     /* background-color: violet; */
     display: flex;
     flex-direction: column;
+    /* margin-top: 10px; */
 
 }
 
@@ -712,7 +722,7 @@ body {
 
 #fap p {
     color: #DAE3F3;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 #fal {
@@ -765,7 +775,7 @@ body {
 
 #fhire a {
     color: #201017;
-    font-family: 'Kristen ITC';
+    /* font-family: 'Kristen ITC'; */
     font-size: 12px;
     text-decoration: none;
 }
