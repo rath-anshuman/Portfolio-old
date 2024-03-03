@@ -318,7 +318,7 @@ body {
     align-items: start;
     margin-top: 30px;
     box-shadow:  27px -27px 53px #00190b,
-             -27px 27px 50px #004157;
+             -27px 27px 90px #004157;
 }
 #skillimage{
     width:  100%;
@@ -465,6 +465,7 @@ body {
 #prjtdetails h1 {
     color: #674af7;
     font-size: 24px;
+    font-weight: 600;
 }
 
 #prjtdetails p {
@@ -494,7 +495,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 20px;
 
+}
+#learnmore :hover{
+    background-color: #FFFF00;
+
+    
 }
 
 .contactsection {
