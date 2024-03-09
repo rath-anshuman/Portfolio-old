@@ -623,8 +623,25 @@ body {
 
 
 
-
-
+/* 
+.mailme{
+    width: 100%;
+    height: 350px;
+    background-color: #eeff00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#mailmebox{
+    width: 60%;
+    height: 100%;
+    background-color: #004157;
+}
+#quoute{
+    width: 35%;
+    height: 100%;
+    background-color: aquamarine;
+} */
 
 
 
